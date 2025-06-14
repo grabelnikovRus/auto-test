@@ -16,7 +16,8 @@ export const Card = ({
 }: CarType & { page: string}) => {
   return (
     <div className={s.root}>
-      <Image 
+      <Image
+        loading="lazy"
         className={s.img}
         src={image[0]} 
         alt={`Фото ${mark_id} ${folder_id}`}
