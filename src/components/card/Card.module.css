@@ -1,0 +1,29 @@
+.root {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, auto);
+  background-color: var(--gray);
+  border: 1px solid var(--gray-dark);
+  border-radius: 6px;
+  padding: 12px;
+  height: 350px;
+  font-size: 14px;
+}
+
+.img {
+  border-radius: 6px;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  padding: 6px 12px;
+  background: var(--blue);
+  border-radius: 6px;
+  margin-left: auto;
+}

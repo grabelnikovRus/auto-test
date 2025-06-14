@@ -1,0 +1,16 @@
+.root {
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.primary {
+  background: var(--blue);
+  color: var(--white);
+}
+
+.second {
+  background: var(--gray-dark);
+  color: var(--black);
+}

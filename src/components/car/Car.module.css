@@ -1,0 +1,13 @@
+.root {
+  display: grid;
+  grid-template-rows: repeat(5, auto);
+  row-gap: 15px;
+  width: fit-content;
+  max-width: 650px;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
