@@ -8,7 +8,7 @@
 }
 
 .root button {
-  width: auto;
+  padding: 0;
   height: 40px;
   font-size: 14px;
 }
